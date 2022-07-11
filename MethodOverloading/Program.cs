@@ -41,14 +41,15 @@
 
 		var answer = Add(x, y);
 
-		var a = 62.0m;
+		var a = 62.1m;
 		var b = 5.0m;
 
 		var decimalAnswer = Add(a, b);
 
 		var thirdAnswer = Add(0, 0, true);
 
-		Console.WriteLine($"int add: {answer} decimal add: {decimalAnswer}");
+        Console.WriteLine($"you owe me {decimalAnswer} dollars");
+		//Console.WriteLine($"int add: {answer} decimal add: {decimalAnswer}");
 		//Console.WriteLine(thirdAnswer);
 	}
 }
